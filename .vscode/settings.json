@@ -1,0 +1,31 @@
+{
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        },
+        "editor.formatOnSave": true,
+    },
+    "python.analysis.extraPaths": ["app", "another/path/etc"],
+    "python.defaultInterpreterPath": "C:\\Users\\mmadd\\anaconda3\\envs\\coding_challenges\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.lintOnSave": false,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=120"
+    ],
+    "editor.defaultFormatter": null,
+    "python.sortImports.args": ["--src=${workspaceFolder}"],
+
+    "sql-formatter.uppercase": true,
+    "sql-formatter.dialect": "postgresql",
+    "sql-formatter.linesBetweenQueries":2,
+   "[sql]": {
+       "editor.defaultFormatter": "lea21st.vscode-sql-formatter",
+},
+"[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
+}
+
