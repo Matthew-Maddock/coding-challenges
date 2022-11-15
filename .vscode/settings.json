@@ -26,6 +26,7 @@
 },
 "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-}
+},
+"C_Cpp.errorSquiggles": "Disabled"
 }
 
