@@ -1,5 +1,6 @@
 {
     "[python]": {
+        "editor.formatOnPaste": false,
         "editor.codeActionsOnSave": {
             "source.organizeImports": true,
         },
@@ -16,7 +17,7 @@
         "--line-length=120"
     ],
     "editor.defaultFormatter": null,
-    "python.sortImports.args": ["--src=${workspaceFolder}"],
+    "isort.args": ["--src=${workspaceFolder}"],
 
     "sql-formatter.uppercase": true,
     "sql-formatter.dialect": "postgresql",
